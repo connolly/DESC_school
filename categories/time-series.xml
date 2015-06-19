@@ -1,38 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Introduction to AstroML</title><link>http://connolly.github.io/introAstroML/</link><description>A set of lectures introducing AstroML</description><atom:link href="http://connolly.github.io/introAstroML/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 19 Jun 2015 09:43:13 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Introduction</title><link>http://connolly.github.io/introAstroML/blog/introduction.html</link><dc:creator>Andy Connolly</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
-    &lt;div class="container" id="notebook-container"&gt;
-
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Each post here (including this one) is an ipython notebook. To view a static version of the notebook (with the code and figures embedded) simply click on &lt;em&gt;"Read more..."&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://connolly.github.io/introAstroML/blog/introduction.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>ipython</category><category>nikola</category><category>python</category><guid>http://connolly.github.io/introAstroML/blog/introduction.html</guid><pubDate>Tue, 24 Mar 2015 18:30:00 GMT</pubDate></item><item><title>Histograms</title><link>http://connolly.github.io/introAstroML/blog/histograms.html</link><dc:creator>Andy Connolly</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
-    &lt;div class="container" id="notebook-container"&gt;
-
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Practical-Bayesian-applications:-Histograms"&gt;Practical Bayesian applications: Histograms&lt;a class="anchor-link" href="http://connolly.github.io/introAstroML/blog/histograms.html#Practical-Bayesian-applications:-Histograms"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;How many bins should I use in a histogram? Though it is typically not necessary to bin the data before estimating
-model parameters there are a number of somewhat principled ways of deciding on your bin size (other that choosing something the "makes it look good")&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Scott's rule&lt;/em&gt; suggests a bin width&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;$\Delta_b = {3.5 \sigma \over N^{1/3}}$&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;with $\sigma$ is the sample standard deviation, and $N$ is the sample size. This minimizes the mean integrated square error (assumes distribution is Gaussian)&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://connolly.github.io/introAstroML/blog/histograms.html"&gt;Read more…&lt;/a&gt; (2 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>histograms</category><category>machine learning</category><category>python</category><guid>http://connolly.github.io/introAstroML/blog/histograms.html</guid><pubDate>Sat, 20 Sep 2014 18:30:00 GMT</pubDate></item><item><title>Classification</title><link>http://connolly.github.io/introAstroML/blog/classification.html</link><dc:creator>Andy Connolly</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
-    &lt;div class="container" id="notebook-container"&gt;
-
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Classification"&gt;Classification&lt;a class="anchor-link" href="http://connolly.github.io/introAstroML/blog/classification.html#Classification"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;In density estimation we estimate joint probability distributions from multivariate data sets to identify the inherent clustering. This is essentially &lt;u&gt; unsupervised classification &lt;/u&gt;&lt;/p&gt;
-&lt;p&gt;If we have labels for some of these data points (e.g., an object is tall, short, red, or blue) we can develop a relationship between the label and the properties of a source. This is &lt;u&gt; supervised classification &lt;/u&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://connolly.github.io/introAstroML/blog/classification.html"&gt;Read more…&lt;/a&gt; (23 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>classification</category><category>machine learning</category><category>python</category><guid>http://connolly.github.io/introAstroML/blog/classification.html</guid><pubDate>Fri, 19 Sep 2014 18:30:00 GMT</pubDate></item><item><title>Time Series</title><link>http://connolly.github.io/introAstroML/blog/time.html</link><dc:creator>Andy Connolly</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Introduction to AstroML (time series)</title><link>http://connolly.github.io/introAstroML/</link><description></description><atom:link href="http://connolly.github.io/introAstroML/categories/time-series.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 19 Jun 2015 09:43:12 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Time Series</title><link>http://connolly.github.io/introAstroML/blog/time.html</link><dc:creator>Andy Connolly</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
@@ -653,26 +620,4 @@ $&lt;/p&gt;
 &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-</description><category>machine learning</category><category>python</category><category>time series</category><guid>http://connolly.github.io/introAstroML/blog/time.html</guid><pubDate>Fri, 19 Sep 2014 18:30:00 GMT</pubDate></item><item><title>Regression</title><link>http://connolly.github.io/introAstroML/blog/regression.html</link><dc:creator>Andy Connolly</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
-    &lt;div class="container" id="notebook-container"&gt;
-
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="The-definition-of-regression"&gt;The definition of regression&lt;a class="anchor-link" href="http://connolly.github.io/introAstroML/blog/regression.html#The-definition-of-regression"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Often we think about regression from the perspective of maximum-likelihood (or least squares). If we consider it from the Bayesian perspective we can get a more physical intuition for how we can undertake regression in the case of errors, and limits on the data.
-&lt;/p&gt;&lt;p&gt;&lt;a href="http://connolly.github.io/introAstroML/blog/regression.html"&gt;Read more…&lt;/a&gt; (26 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>machine learning</category><category>python</category><category>regression</category><guid>http://connolly.github.io/introAstroML/blog/regression.html</guid><pubDate>Thu, 18 Sep 2014 18:30:00 GMT</pubDate></item><item><title>Dimensionality Reduction</title><link>http://connolly.github.io/introAstroML/blog/dimensionality.html</link><dc:creator>Andy Connolly</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
-    &lt;div class="container" id="notebook-container"&gt;
-
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Dimensionality-Reduction"&gt;Dimensionality Reduction&lt;a class="anchor-link" href="http://connolly.github.io/introAstroML/blog/dimensionality.html#Dimensionality-Reduction"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Fitting and overfitting get worse with ''curse of dimensionality'' Bellman 1961&lt;/p&gt;
-&lt;p&gt;Think about a hypersphere. Its volume is  given by&lt;/p&gt;
-\begin{equation}
-  V_D(r) = \frac{2r^D\pi^{D/2}}{D\  \Gamma(D/2)},
-\end{equation}&lt;p&gt;where $\Gamma(z)$ is the complete gamma function, $D$ is the dimension, and $r$ the radius of the sphere.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://connolly.github.io/introAstroML/blog/dimensionality.html"&gt;Read more…&lt;/a&gt; (11 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>machine learning</category><category>pca</category><category>python</category><guid>http://connolly.github.io/introAstroML/blog/dimensionality.html</guid><pubDate>Tue, 09 Sep 2014 18:30:00 GMT</pubDate></item></channel></rss>
+</description><category>machine learning</category><category>python</category><category>time series</category><guid>http://connolly.github.io/introAstroML/blog/time.html</guid><pubDate>Fri, 19 Sep 2014 18:30:00 GMT</pubDate></item></channel></rss>
