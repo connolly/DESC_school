@@ -1,29 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-
-  <title>DESC Dark Energy School (2016): Robust Model Fitting</title>
-  <meta name="description" content="DESC AstroML">
-  <meta name="author" content="ajc">
-
-  <!--  Mobile viewport optimized: j.mp/bplateviewport -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-    <!-- Place favicon.ico
-        in the root of your domain and delete these references -->
-  <link rel="shortcut icon" href="favicon.ico">
-  
-    <link rel="stylesheet" href="assets/css/site.css">
-  <link href="http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,300" rel="stylesheet" type="text/css">
-
-  
-      </head>
+<meta charset="utf-8">
+<title>DESC Dark Energy School (2016): Robust Model Fitting</title>
+<meta name="description" content="DESC AstroML">
+<meta name="author" content="ajc">
+<!--  Mobile viewport optimized: j.mp/bplateviewport --><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<!-- Place favicon.ico
+        in the root of your domain and delete these references --><link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="assets/css/site.css">
+<link href="http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,300" rel="stylesheet" type="text/css">
+</head>
 <body id="index">
 
-                  <nav class="main_nav">
-    <ul>
-                <li>
+                  <nav class="main_nav"><ul>
+<li>
             <a title="Homepage" class="button home" href="#home">
                 HOME
             </a>
@@ -43,18 +34,10 @@
                 ABOUT
             </a>
         </li>
-	</ul>
-</nav>
-        
-<section id="top">
-  <a name="home"></a>
+	</ul></nav><section id="top"><a name="home"></a>
   <h1> DESC Dark Energy School (2016): Robust Model Fitting</h1>
   <h2>March 7th 2016</h2>
-</section>
-
-
-<section class="text">
-  <a name="about"></a>
+</section><section class="text"><a name="about"></a>
   <div class="block">
 
     <p>
@@ -65,21 +48,19 @@
 
     This class will provide a quick fire introduction to a number of
     machine learning techniques used in model fitting. I will make use
-    of Chapter 8 from the textbook <a
-    href="http://press.princeton.edu/titles/10159.html"><i>Statistics,
+    of Chapter 8 from the textbook <a href="http://press.princeton.edu/titles/10159.html"><i>Statistics,
     Data Mining, and Machine Learning in Astronomy</i></a> by Ivezić,
     Connolly, VanderPlas, and Gray. </p>
 
      <h4> How to fit models to data (including data with errors) </h4>
      <ul>
-        <li>A Bayesian approach to regression </li>
+<li>A Bayesian approach to regression </li>
         <li>Basis function regression </li>
         <li>Regularization and the problem of over fitting</li>
 	<li>Robust regression</li>
 	<li>Regression for data with uncertainties on both dimensions</li>
       </ul>
-
-    <p>The objective of this class is to provide a hands-on
+<p>The objective of this class is to provide a hands-on
     introduction to machine learning techniques available with Python
     (e.g. SciKit-learn). The lecture will be presented as an iPython
     notebook that can be either viewed on a browser or executed as
@@ -96,12 +77,7 @@
 
    
   </div>
-</section>
-
-<section id="bare"></section>
-
-<section class="text">
-  <a name="instructions"></a>
+</section><section id="bare"></section><section class="text"><a name="instructions"></a>
   <div class="block">
 
 <h2>Setting Up Your Computer</h2>
@@ -134,7 +110,7 @@
     <p>In addition to the Python interpreter, a number of scientific packages
       will be required:</p>
     <ul>
-      <li>
+<li>
 <a href="http://www.numpy.org">NumPy</a> version 1.5+:
 	efficient array operations</li>
       <li>
@@ -151,17 +127,16 @@
 	machine learning</li>
       <li>
 <a href="http://astroML.org/">astroML</a>: an astronomical machine learning toolkit</li>
+
 </ul>
-
-
-    <h4>Installation</h4>
+<h4>Installation</h4>
     <p>For installation from-scratch, I highly recommend the
       <a href="https://store.continuum.io/cshop/anaconda/">Anaconda Installer</a>, a free product offered by ContinuumIO.  It gives you a fast local Python
       installation with up-to-date packages.</p>
 <p>
       </p>
 <ol>
-	<li>Download and install Anaconda on your system, by going to the
+<li>Download and install Anaconda on your system, by going to the
 	  above link, downloading the appropriate package. For Mac OSX
 	  you can download the dmg and follow the instructions <a href="http://docs.continuum.io/anaconda/install.html#mac-install">here</a>
 	</li>
@@ -185,7 +160,7 @@
 	  and a browser window should open to the notebook dashboard.
       </li>
 </ol>
-    <p>More detailed system-specific help can be found on the Anaconda
+<p>More detailed system-specific help can be found on the Anaconda
       <a href="http://docs.continuum.io/anaconda/install.html">
 	installation page</a>.
     </p>
@@ -203,29 +178,26 @@
          <pre>[~]$ pip install astroML_addons</pre>
 
 	 the most uptodate code can be downloaded from <a href="http://github.com/astroML/astroML">Githib</a> and by following these <a href="http://www.astroml.org/user_guide/installation.html">instructions</a>
+
+	 <p> we will also be making use of the <a href="https://pymc-devs.github.io/pymc/">pymc</a> package which can be installed using </p>
+<p>
+
+         </p>
+<pre>[~]$ easy_install pymc</pre>
+
+	 <p> or if you have conda </p>
+
+	 <pre>[~]$ conda install -c https://conda.binstar.org/pymc pymc </pre>
+
 	   </div>
+	   
 
 
 </div>
 </div>
-</section>
-
-
-
-<section id="fountain"></section>
-
-
-      <section class="footer">
-     <p>Website created with <a
-     href="http://getnicola.com/">Nikola</a>.  Layout by Jake
+</section><section id="fountain"></section><section class="footer"><p>Website created with <a href="http://getnicola.com/">Nikola</a>.  Layout by Jake
      VanderPlas and Andy Connolly</p>
-    </section>
-  
-
-      <script src="assets/js/jquery-1.11.0.min.js"></script>
-  
-      <script defer src="assets/js/main.js"></script>
-    <script type="text/JavaScript">
+    </section><script src="assets/js/jquery-1.11.0.min.js"></script><script defer src="assets/js/main.js"></script><script type="text/JavaScript">
       var currentID = null;
       function displayBio(bioID){
         var bioDiv = $("#" + bioID);
@@ -256,6 +228,5 @@
         }
       }
     </script>
-    </body>
-
+</body>
 </html>

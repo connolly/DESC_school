@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Introduction to AstroML</title><link>http://connolly.github.io/DESC_school/</link><description>A set of lectures introducing AstroML</description><atom:link rel="self" type="application/rss+xml" href="http://connolly.github.io/DESC_school/rss.xml"></atom:link><language>en</language><lastBuildDate>Mon, 29 Feb 2016 07:49:27 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Histograms</title><link>http://connolly.github.io/DESC_school/blog/histograms.html</link><dc:creator>Andy Connolly</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Introduction to AstroML</title><link>http://connolly.github.io/DESC_school/</link><description>A set of lectures introducing AstroML</description><atom:link type="application/rss+xml" rel="self" href="http://connolly.github.io/DESC_school/rss.xml"></atom:link><language>en</language><lastBuildDate>Mon, 29 Feb 2016 17:01:26 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Using iPython Notebooks</title><link>http://connolly.github.io/DESC_school/blog/using-ipython-notebooks.html</link><description>&lt;div&gt;&lt;p&gt;Each post here is an ipython notebook. To view a static version of the notebook (with the code and figures embedded) simply click on "Read more...".&lt;/p&gt;
+&lt;p&gt;To download the notebook to your machine, click on Source (in the top right corner) and save the notebook to your harddrive. To run the notebook (assuming you have followed the installation instructions simply type in the directory where you saved the notebook,&lt;/p&gt;
+&lt;blockquote&gt;
+ipython notebook [notebook_name.ipynb]&lt;/blockquote&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;blockquote&gt;
+jupyter notebook  [notebook_name.ipynb]&lt;/blockquote&gt;
+&lt;p&gt;depending on your flavor of python&lt;/p&gt;
+&lt;p&gt;and a page will come up in your browser with the notebook&lt;/p&gt;
+&lt;p&gt;shift-enter (on a mac) in each cell in the notebook will execute the code in each cell of the notebook.&lt;/p&gt;
+&lt;p&gt;Check that you can download and running the "Histograms" notebook below to make sure everything is installed correctly&lt;/p&gt;
+&lt;p&gt;For more help on ipython notebooks see &lt;a class="reference external" href="http://cs231n.github.io/ipython-tutorial/"&gt;http://cs231n.github.io/ipython-tutorial/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>http://connolly.github.io/DESC_school/blog/using-ipython-notebooks.html</guid><pubDate>Mon, 29 Feb 2016 16:02:06 GMT</pubDate></item><item><title>Histograms</title><link>http://connolly.github.io/DESC_school/blog/histograms.html</link><dc:creator>Andy Connolly</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
@@ -10,6 +21,7 @@
 &lt;h2 id="Practical-Bayesian-applications:-Histograms"&gt;&lt;strong&gt;Practical Bayesian applications: Histograms&lt;/strong&gt;&lt;a class="anchor-link" href="http://connolly.github.io/DESC_school/blog/histograms.html#Practical-Bayesian-applications:-Histograms"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;How many bins should I use in a histogram? Though it is typically not necessary to bin the data before estimating
 model parameters there are a number of somewhat principled ways of deciding on your bin size (other that choosing something the "makes it look good")&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Scott's rule&lt;/em&gt; suggests a bin width&lt;/p&gt;
-&lt;p&gt;$\Delta_b = {3.5 \sigma \over N^{1/3}}$&lt;/p&gt;
-&lt;p&gt;with $\sigma$ is the sample standard deviation, and $N$ is the sample size. This minimizes the mean integrated square error (assumes distribution is Gaussian)&lt;/p&gt;
+\begin{equation}
+\Delta_b = {3.5 \sigma \over N^{1/3}}
+\end{equation}&lt;p&gt;with $\sigma$ is the sample standard deviation, and $N$ is the sample size. This minimizes the mean integrated square error (assumes distribution is Gaussian)&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://connolly.github.io/DESC_school/blog/histograms.html"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>histograms</category><category>machine learning</category><category>python</category><guid>http://connolly.github.io/DESC_school/blog/histograms.html</guid><pubDate>Sat, 20 Sep 2014 18:30:00 GMT</pubDate></item></channel></rss>
