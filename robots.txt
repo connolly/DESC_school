@@ -1,2 +1,4 @@
 Sitemap: http://connolly.github.io/introAstroML/sitemapindex.xml
 
+User-Agent: *
+Host: connolly.github.io

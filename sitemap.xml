@@ -1,99 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://connolly.github.io/introAstroML/2014/index.html</loc>
-  <lastmod>2015-06-19</lastmod>
- </url>
- <url>
-  <loc>http://connolly.github.io/introAstroML/2015/index.html</loc>
-  <lastmod>2015-04-29</lastmod>
+  <lastmod>2016-02-29T07:15:00Z</lastmod>
  </url>
  <url>
   <loc>http://connolly.github.io/introAstroML/archive.html</loc>
-  <lastmod>2015-04-29</lastmod>
- </url>
- <url>
-  <loc>http://connolly.github.io/introAstroML/blog/classification.html</loc>
-  <lastmod>2015-06-19</lastmod>
- </url>
- <url>
-  <loc>http://connolly.github.io/introAstroML/blog/dimensionality.html</loc>
-  <lastmod>2015-06-19</lastmod>
+  <lastmod>2016-02-29T07:15:00Z</lastmod>
  </url>
  <url>
   <loc>http://connolly.github.io/introAstroML/blog/histograms.html</loc>
-  <lastmod>2015-05-22</lastmod>
+  <lastmod>2016-02-29T07:15:00Z</lastmod>
  </url>
  <url>
   <loc>http://connolly.github.io/introAstroML/blog/index.html</loc>
-  <lastmod>2015-06-19</lastmod>
- </url>
- <url>
-  <loc>http://connolly.github.io/introAstroML/blog/introduction.html</loc>
-  <lastmod>2015-05-22</lastmod>
- </url>
- <url>
-  <loc>http://connolly.github.io/introAstroML/blog/regression.html</loc>
-  <lastmod>2015-06-19</lastmod>
- </url>
- <url>
-  <loc>http://connolly.github.io/introAstroML/blog/time.html</loc>
-  <lastmod>2015-06-19</lastmod>
- </url>
- <url>
-  <loc>http://connolly.github.io/introAstroML/categories/classification.html</loc>
-  <lastmod>2015-05-08</lastmod>
+  <lastmod>2016-02-29T07:15:00Z</lastmod>
  </url>
  <url>
   <loc>http://connolly.github.io/introAstroML/categories/histograms.html</loc>
-  <lastmod>2015-06-19</lastmod>
+  <lastmod>2016-02-29T07:15:00Z</lastmod>
  </url>
  <url>
   <loc>http://connolly.github.io/introAstroML/categories/index.html</loc>
-  <lastmod>2015-06-19</lastmod>
- </url>
- <url>
-  <loc>http://connolly.github.io/introAstroML/categories/ipython.html</loc>
-  <lastmod>2015-06-19</lastmod>
+  <lastmod>2016-02-29T07:15:00Z</lastmod>
  </url>
  <url>
   <loc>http://connolly.github.io/introAstroML/categories/machine-learning.html</loc>
-  <lastmod>2015-06-19</lastmod>
- </url>
- <url>
-  <loc>http://connolly.github.io/introAstroML/categories/nikola.html</loc>
-  <lastmod>2015-04-29</lastmod>
- </url>
- <url>
-  <loc>http://connolly.github.io/introAstroML/categories/pca.html</loc>
-  <lastmod>2015-06-19</lastmod>
+  <lastmod>2016-02-29T07:15:00Z</lastmod>
  </url>
  <url>
   <loc>http://connolly.github.io/introAstroML/categories/python.html</loc>
-  <lastmod>2015-06-19</lastmod>
- </url>
- <url>
-  <loc>http://connolly.github.io/introAstroML/categories/regression.html</loc>
-  <lastmod>2015-06-19</lastmod>
- </url>
- <url>
-  <loc>http://connolly.github.io/introAstroML/categories/time-series.html</loc>
-  <lastmod>2015-06-19</lastmod>
- </url>
- <url>
-  <loc>http://connolly.github.io/introAstroML/galleries/index.html</loc>
-  <lastmod>2015-04-29</lastmod>
+  <lastmod>2016-02-29T07:15:00Z</lastmod>
  </url>
  <url>
   <loc>http://connolly.github.io/introAstroML/index.html</loc>
-  <lastmod>2015-04-29</lastmod>
- </url>
- <url>
-  <loc>http://connolly.github.io/introAstroML/listings/index.html</loc>
-  <lastmod>2015-04-29</lastmod>
+  <lastmod>2016-02-29T07:15:00Z</lastmod>
  </url>
 </urlset>
