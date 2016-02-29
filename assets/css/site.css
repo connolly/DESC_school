@@ -54,7 +54,7 @@ section{
 }
 
 section#top{
-    background-image: url(../images/nbodyBanner.jpg);
+    background-image: url(../images/cambridge.jpg);
 }
 
 section#top h1{
@@ -83,7 +83,7 @@ section h3{
     text-align: left;
 }
 
-X3section h4{
+section h4{
     text-align: left;
 }
 
@@ -118,8 +118,8 @@ section.footer p{
     display: block;
 }
 
-section#bare{
-    background-image: url(../images/UW-small.jpg);
+section#cambridge{
+    background-image: url(../images/cambridge.jpg);
 }
 
 section#fountain{
