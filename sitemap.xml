@@ -6,10 +6,6 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>http://connolly.github.io/DESC_school/2013/index.html</loc>
-  <lastmod>2016-02-29T20:19:00Z</lastmod>
- </url>
- <url>
   <loc>http://connolly.github.io/DESC_school/2014/index.html</loc>
   <lastmod>2016-02-29T20:21:00Z</lastmod>
  </url>
@@ -23,11 +19,11 @@
  </url>
  <url>
   <loc>http://connolly.github.io/DESC_school/authors/andy-connolly.html</loc>
-  <lastmod>2016-02-29T20:21:00Z</lastmod>
+  <lastmod>2016-03-01T02:04:00Z</lastmod>
  </url>
  <url>
   <loc>http://connolly.github.io/DESC_school/authors/index.html</loc>
-  <lastmod>2016-02-29T20:21:00Z</lastmod>
+  <lastmod>2016-03-01T02:04:00Z</lastmod>
  </url>
  <url>
   <loc>http://connolly.github.io/DESC_school/blog/histograms.html</loc>
