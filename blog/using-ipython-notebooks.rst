@@ -30,6 +30,6 @@ machine. This should bring up a page in your browser with the notebook
 shift-enter - on a mac - in each cell in the notebook will execute the
 code in that cell
 
-To prepare for the class, check that you can download and running the "Histograms" notebook below to make sure everything is installed correctly
+To prepare for the class, check that you can download and run the "Histograms" notebook below to make sure everything is installed correctly
 
 For more help on ipython notebooks see http://cs231n.github.io/ipython-tutorial/
