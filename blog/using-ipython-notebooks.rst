@@ -26,7 +26,8 @@ or
 depending on the version of ipython that is installed on your
 machine. This should bring up a page in your browser with the notebook
 
-shift-enter - on a mac - in each cell in the notebook will execute the code 
+shift-enter - on a mac - in each cell in the notebook will execute the
+code in that cell
 
 To prepare for the class, check that you can download and running the "Histograms" notebook below to make sure everything is installed correctly
 
