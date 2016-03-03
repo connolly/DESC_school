@@ -11,7 +11,7 @@ Each post here is an ipython notebook. To view a static version of the
 notebook - with the code and figures embedded - simply click on "Read more...".
 
 To download the notebook to your machine, click  "Read more..." and
-then on "Source" (in the top right corner) and save the notebook to
+then on "Source"  which you can find in the top right corner and save the notebook to
 your harddrive.
 
 To run the notebook - assuming you have followed the installation
