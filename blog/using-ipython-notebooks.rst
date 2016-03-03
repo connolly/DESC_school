@@ -7,7 +7,7 @@
 .. description: 
 .. type: text
 
-Each post here is an ipython notebook. To view a static version of the
+The "Histograms" post is an ipython notebook. To view a static version of the
 notebook - with the code and figures embedded - simply click on the
 title of the post or on  "Read more...".
 
