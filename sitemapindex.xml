@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://connolly.github.io/DESC_school/authors/andy-connolly.xml</loc>
-  <lastmod>2016-03-02T06:30:00Z</lastmod>
+  <lastmod>2016-03-03T18:39:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://connolly.github.io/DESC_school/categories/histograms.xml</loc>
@@ -23,10 +23,10 @@
  </sitemap>
  <sitemap>
   <loc>http://connolly.github.io/DESC_school/rss.xml</loc>
-  <lastmod>2016-03-02T06:30:00Z</lastmod>
+  <lastmod>2016-03-03T18:39:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://connolly.github.io/DESC_school/sitemap.xml</loc>
-  <lastmod>2016-03-02T06:30:00Z</lastmod>
+  <lastmod>2016-03-03T18:39:00Z</lastmod>
  </sitemap>
 </sitemapindex>
