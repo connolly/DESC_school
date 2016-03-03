@@ -7,13 +7,14 @@
 .. description: 
 .. type: text
 
-Each post here is an ipython notebook. To view a static version of the notebook (with the code and figures embedded) simply click on "Read more...".
+Each post here is an ipython notebook. To view a static version of the
+notebook \(with the code and figures embedded\) simply click on "Read more...".
 
 To download the notebook to your machine, click  "Read more..." and
 then on "Source" (in the top right corner) and save the notebook to
 your harddrive.
 
-To run the notebook (assuming you have followed the installation instructions) simply type in the directory where you saved the notebook,
+To run the notebook \(assuming you have followed the installation instructions\) simply type in the directory where you saved the notebook,
 
    ipython notebook [notebook_name.ipynb] 
 
