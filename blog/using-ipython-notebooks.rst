@@ -8,9 +8,10 @@
 .. type: text
 
 Each post here is an ipython notebook. To view a static version of the
-notebook - with the code and figures embedded - simply click on "Read more...".
+notebook - with the code and figures embedded - simply click on the
+title of the post or on  "Read more...".
 
-To download the notebook to your machine, click  "Read more..." and
+To download the notebook to your machine, click  the title of the post and
 then on "Source"  which you can find in the top right corner and save the notebook to
 your harddrive.
 
