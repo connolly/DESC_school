@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Introduction to AstroML</title><link>http://connolly.github.io/DESC_school/</link><description>A set of lectures introducing AstroML</description><atom:link type="application/rss+xml" href="http://connolly.github.io/DESC_school/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Thu, 03 Mar 2016 18:40:10 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Using iPython Notebooks</title><link>http://connolly.github.io/DESC_school/blog/using-ipython-notebooks.html</link><description>&lt;div&gt;&lt;p&gt;Each post here is an ipython notebook. To view a static version of the
-notebook (with the code and figures embedded) simply click on "Read more...".&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Introduction to AstroML</title><link>http://connolly.github.io/DESC_school/</link><description>A set of lectures introducing AstroML</description><atom:link rel="self" type="application/rss+xml" href="http://connolly.github.io/DESC_school/rss.xml"></atom:link><language>en</language><lastBuildDate>Thu, 03 Mar 2016 18:41:20 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Using iPython Notebooks</title><link>http://connolly.github.io/DESC_school/blog/using-ipython-notebooks.html</link><description>&lt;div&gt;&lt;p&gt;Each post here is an ipython notebook. To view a static version of the
+notebook - with the code and figures embedded- simply click on "Read more...".&lt;/p&gt;
 &lt;p&gt;To download the notebook to your machine, click  "Read more..." and
 then on "Source" (in the top right corner) and save the notebook to
 your harddrive.&lt;/p&gt;
-&lt;p&gt;To run the notebook (assuming you have followed the installation instructions) simply type in the directory where you saved the notebook,&lt;/p&gt;
+&lt;p&gt;To run the notebook -assuming you have followed the installation instructions- simply type in the directory where you saved the notebook,&lt;/p&gt;
 &lt;blockquote&gt;
 ipython notebook [notebook_name.ipynb]&lt;/blockquote&gt;
 &lt;p&gt;or&lt;/p&gt;
@@ -12,7 +12,7 @@ ipython notebook [notebook_name.ipynb]&lt;/blockquote&gt;
 jupyter notebook  [notebook_name.ipynb]&lt;/blockquote&gt;
 &lt;p&gt;depending on the version of ipython that is installed on your
 machine. This should bring up a page in your browser with the notebook&lt;/p&gt;
-&lt;p&gt;shift-enter (on a mac) in each cell in the notebook will execute the code&lt;/p&gt;
+&lt;p&gt;shift-enter - on a mac - in each cell in the notebook will execute the code&lt;/p&gt;
 &lt;p&gt;To prepare for the class, check that you can download and running the "Histograms" notebook below to make sure everything is installed correctly&lt;/p&gt;
 &lt;p&gt;For more help on ipython notebooks see &lt;a class="reference external" href="http://cs231n.github.io/ipython-tutorial/"&gt;http://cs231n.github.io/ipython-tutorial/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>http://connolly.github.io/DESC_school/blog/using-ipython-notebooks.html</guid><pubDate>Mon, 29 Feb 2016 16:02:06 GMT</pubDate></item><item><title>Histograms</title><link>http://connolly.github.io/DESC_school/blog/histograms.html</link><dc:creator>Andy Connolly</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
